@@ -179,7 +179,7 @@ this.setState(function(state, props) {
     counter: state.counter + props.increment
   };
 }));
-
+```
 ### State 업데이트는 병합된다.
 setState()를 호출할 때 React는 제공한 객체를 현재 state로 병합한다.
 예를 들어, state는 다양한 독립적인 변수를 포함할 수 있다.
